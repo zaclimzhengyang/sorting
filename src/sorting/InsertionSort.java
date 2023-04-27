@@ -32,6 +32,22 @@ public class InsertionSort {
      *      variables like the `key` variable and tbe index `j`. the algorithm sorts the array in place,
      *      so no additional memory is needed.
      *
+     * e.g.
+     *      4   3   2   10  12  1   5   6
+     *          ^
+     *      3   4   2   10  12  1   5   6
+     *              ^
+     *      2   3   4   10  12  1   5   6
+     *                  ^
+     *      2   3   4   10  12  1   5   6
+     *                      ^
+     *      2   3   4   10  12  1   5   6
+     *                          ^
+     *      1   2   3   4   10  12  5   6
+     *                              ^
+     *      1   2   3   4   5   10  12  6
+     *                                  ^
+     *      1   2   3   4   5   6   10  12
      */
 
     public static void insertionSort(int[] arr) {
